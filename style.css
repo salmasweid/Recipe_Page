@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 768px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        place-content: center;
+        padding: 5rem 1rem;
+        background-color: hsl(30, 54%, 90%);
+    }
+    
+    img {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    section {
+        border-radius: 1rem;
+    }
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: hsl(24, 5%, 18%);
+    line-height: 1.8rem;
+}
+
+.description {
+    padding-top: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 0.85em;
+    color:  hsl(30, 10%, 34%);
+}
+
+.time {
+    margin: 2rem 0;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.2rem;
+}
+
+.time h3 {
+    padding: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color:  hsl(332, 51%, 32%);
+}
+
+.time ul {
+    padding: 0 3rem 1rem 3rem;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: hsl(14, 45%, 36%);
+}
+
+li {
+    padding: 0 0 0.5rem 1rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-size: 0.85em;
+}
+
+span {
+    font-weight: 700;
+}
+
+.ingredients, .instructions {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients ul, .instructions ol {
+    padding: 1rem 0 0 2rem;
+}
+
+.instructions, .nutrition {
+    padding-top: 1rem;
+}
+
+table {
+    width: 100%;
+    padding: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.85em;
+}
+
+table tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+table tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+table tr td:first-of-type {
+    padding-left: 1rem;
+    font-weight: 400;
+    color:  hsl(30, 10%, 34%);
+}
+
+table tr td:last-of-type {
+    padding-right: 3rem;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
